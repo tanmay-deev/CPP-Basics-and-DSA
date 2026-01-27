@@ -19,16 +19,26 @@ int main()
     int x;
     cout << "Enter the element to be remove: ";
     cin >> x;
+    int count = 0;
 
     for (int i = 0; i < n; i++)
     {
-        if (arr[i] == x)
-        {
-            continue;
+        if(arr[i] == x){
+            count ++;
         }
-        else
-        {
-            cout << arr[i] << " ";
+    }
+    int new_size = n - count;
+    int temp[new_size];
+
+    int idx = 0;
+
+    for (int i = 0; i < n; i++){
+        if(arr[i] != x){
+            temp[idx] == arr[i];
+            idx++;
         }
+    }
+    for(int i = 0; i < new_size; i++){
+        cout << temp[i] << " ";
     }
 }
