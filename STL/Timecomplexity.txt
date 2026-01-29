@@ -1,0 +1,44 @@
+for(int i = 0; i < n; i++){
+    for(int j = 0; j < m; i++){
+        cout << "hi"
+    }
+}
+
+worst case -- O(n*m) -- O(n Square) Quadratic time
+
+for(int i = 0; i < n; i = i*2){
+    cout << i;
+}
+
+worst case -- O(log n) == Logarithmic Time
+
+for(i(1 - n) i++){
+    for(i(1 - n) i = i * 2){
+
+    }
+}
+
+worst case -- O(n log n)
+
+for(i(1 - n)){
+    for(j(1 - n) ){
+        for(k(1 - n)){
+
+        }
+    }
+}
+
+worst case -- O (n Cube)
+
+for(int i = 1; i < n; i++){
+
+}
+for(int j = 1; j < n; j++){
+
+}
+
+worst case -- O(n + m)
+
+Time complixity Order (Ascending)
+
+O(1) < O (log n) < O (n) < O(n log n) < O(n Square) < O (2 to the power n) < O(n!)
